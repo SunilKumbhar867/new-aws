@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-app.post('/id',(req,res)=>{
+app.get('/test',(req,res)=>{
     res.send('hello')
 })
 
